@@ -1,0 +1,34 @@
+{
+  "name": "nopala",
+  "version": "1.0.0",
+  "description": "Impala and Hive client for Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose",
+    "thrift":"node impala/process_thrift.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunui/nopala.git"
+  },
+  "keywords": [
+    "impala",
+    "nodejs",
+    "sql",
+    "nopala",
+    "hs2",
+    "beeswax"
+  ],
+  "author": "sunui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunui/nopala/issues"
+  },
+  "homepage": "https://github.com/sunui/nopala#readme",
+  "dependencies": {
+    "thrift": "^0.12.0"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0"
+  }
+}
