@@ -27,6 +27,10 @@ Base on Thrift.
 
 ### examples
 
+```bash
+npm install nopala
+```
+
 #### hs2
 ```js
 import {createConnection} from 'nopala';

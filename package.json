@@ -1,6 +1,6 @@
 {
   "name": "nopala",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Impala and Hive client for Nodejs",
   "main": "index.js",
   "scripts": {
