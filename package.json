@@ -1,11 +1,11 @@
 {
   "name": "nopala",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Impala and Hive client for Nodejs",
   "main": "index.js",
   "scripts": {
     "test": "ava --verbose",
-    "thrift":"node impala/process_thrift.js "
+    "thrift": "node impala/process_thrift.js "
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,11 @@
   },
   "homepage": "https://github.com/sunui/nopala#readme",
   "dependencies": {
+    "big.js": "^5.2.2",
+    "debug": "^4.1.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-int64": "^0.4.0",
     "thrift": "^0.12.0"
   },
   "devDependencies": {
